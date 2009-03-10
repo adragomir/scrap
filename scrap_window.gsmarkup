@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<gsmarkup>
+    <objects>
+        <window delegate="#NSOwner" resizable="yes" width="400" height="400">
+            <vbox>
+                <view id="document_area" backgroundColor="F2FCFE00" instanceOf="WebView" halign="expand" valign="expand"/>
+                <hbox height="108" halign="expand" id="search_area">
+                    <label height="100" halign="expand" backgroundColor="red">asdasdasd</label>
+                    <control instanceOf="NSSearchField" width="200" halign="right" valign="top" id="search_field"/>
+                </hbox>
+                <hbox height="34" halign="expand" id="bottomBar">
+                    <label height="32" halign="expand" backgroundColor="blue" id="bottom_bar">Bottom</label>
+                </hbox>
+            </vbox>
+        </window>
+    </objects>
+
+    <connectors>
+        <outlet target="#document_area" source="#NSOwner" key="documentArea"/>
+        <outlet target="#search_field" source="#NSOwner" key="searchField"/>
+        <outlet target="#bottom_bar" source="#NSOwner" key="bottomBar"/>
+    </connectors>
+</gsmarkup>

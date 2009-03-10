@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<gsmarkup>
+    <objects>
+        <menu type="main">
+            <menu title="Scrap" type="apple">
+                <menuItem title="About Scrap" action="orderFrontStandardAboutPanel:"/>
+                <menuSeparator/>
+                <menu title="Services" type="services"/>
+                <menuSeparator/>
+                <menuItem title="Hide Scrap" action="hide:" keyEquivalent="h"/>
+                <menuItem title="Hide Others" action="hideOtherApplications:"/>
+                <menuItem title="Show All" action="unhideAllApplications:"/>
+                <menuSeparator/>
+                <menuItem title="Quit Scrap" action="terminate:" keyEquivalent="q"/>
+            </menu>
+            <menu title="File">
+                <menuItem title="New" action="newDocument:" keyEquivalent="n"/>
+                <menuItem title="Open" action="open:" keyEquivalent="o"/>
+                <menu title="Open Recent..."/>
+                <menuSeparator/>
+                <menuItem title="Close" action="close:" keyEquivalent="w"/>
+                <menuItem title="Save" action="saveDocument:" keyEquivalent="s"/>
+                <menuItem title="Save As..." action="saveDocumentAs:" keyEquivalent="S"/>
+                <menuItem title="Revert" action="revertDocumentToSaved:" enabled="no"/>
+            </menu>
+            <menu title="Edit">
+                <menuItem title="Undo" action="undo:" keyEquivalent="z"/>
+                <menuItem title="Redo" action="redo:" keyEquivalent="Z"/>
+                <menuSeparator/>
+                <menuItem title="Cut" action="cut:" keyEquivalent="x"/>
+                <menuItem title="Copy" action="copy:" keyEquivalent="c"/>
+                <menuItem title="Paste" action="paste:" keyEquivalent="v"/>
+                <menuItem title="Delete" action="delete:"/>
+                <menuItem title="Select All" action="selectAll:" keyEquivalent="a"/>
+                <menuSeparator/>
+                <menu title="Find">
+                    <menuItem title="Find..." action="find:" keyEquivalent="f"/>
+                    <menuItem title="Find Next" action="findNext:" keyEquivalent="g"/>
+                    <menuItem title="Find Previous" action="findPrevious:" keyEquivalent="G"/>
+                    <menuItem title="Use Selection for Find" action="findSelection:" keyEquivalent="e"/>
+                    <menuItem title="Jump to Selection" action="jumpToSelection:" keyEquivalent="j"/>
+                </menu>
+            </menu>
+
+            <menu title="Window" type="windows">
+                <menuItem title="Minimize Window" action="performMiniaturize:" keyEquivalent="m"/>
+                <menuSeparator/>
+                <menuItem title="Bring All to Front" action="arrangeInFront:"/>
+            </menu>
+        </menu>
+        <menu title="Help" type="help">
+            <menuItem title="scrap Help" keys="?"/>
+        </menu>
+    </objects>
+</gsmarkup>
