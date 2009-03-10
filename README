@@ -1,1 +1,5 @@
-requires: renaissance
+Requires: 
+    renaissance
+        http://www.gnustep.it/Renaissance/
+    pyobjc 2.2.1b
+
